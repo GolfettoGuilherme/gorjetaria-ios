@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: Outlets
 
     @IBOutlet weak var txtValorConta : UITextField!
     
@@ -19,11 +21,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var qtdPessoasLabel: UILabel!
     
+    // MARK: Variaveis
+    
     var gorjeta = 0.10
     var numeroDePessoas = 2
     var totalConta = 0.0
     var resultadoFinal = "0.0"
-   
+    
+    
+   // MARK: Actions
     
     @IBAction func addGorjeta(_ sender: UIButton) {
         txtValorConta.endEditing(true)
@@ -57,6 +63,8 @@ class ViewController: UIViewController {
         }
         
     }
+    
+    // MARK: Funcoes
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destino = segue.destination as! ResultsController

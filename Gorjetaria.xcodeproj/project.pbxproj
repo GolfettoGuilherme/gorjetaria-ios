@@ -58,7 +58,6 @@
 		0EDEE89625E1EE6F00A32F78 /* Gorjetaria */ = {
 			isa = PBXGroup;
 			children = (
-				0EDEE8AE25E1EE9B00A32F78 /* Models */,
 				0EDEE8AD25E1EE9500A32F78 /* Views */,
 				0EDEE8AC25E1EE8A00A32F78 /* Controllers */,
 				0EDEE89725E1EE6F00A32F78 /* AppDelegate.swift */,
@@ -85,13 +84,6 @@
 				0EDEE89D25E1EE6F00A32F78 /* Main.storyboard */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		0EDEE8AE25E1EE9B00A32F78 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
